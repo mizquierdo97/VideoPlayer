@@ -32,7 +32,7 @@ bool j1Video::CleanUp()
 void j1Video::Initialize(char* file_path)
 {
 	std::string path = SDL_GetBasePath();
-	//path += "..\\Game\\";
+	path += "..\\Game\\";
 	std::string file_name = file_path;
 
 	std::string temp = path + file_name;
@@ -52,12 +52,10 @@ void j1Video::OpenAvi(LPCSTR szFile)
 		LOG("Can't open AVI File - Check Path -");
 	}
 
-	AVIStreamInfo(pavi, &psi, sizeof(psi));						// Reads Information About The Stream Into psi
+	AVIStreamInfo(pavi, &psi, sizeof(psi));							// Reads Information About The Stream Into psi
 	width = psi.rcFrame.right - psi.rcFrame.left;					// Width Is Right Side Of Frame Minus Left
-	height = psi.rcFrame.bottom - psi.rcFrame.top;					// Height Is Bottom Of Frame Minus Top
-	
-	
-	lastframe = AVIStreamLength(pavi);							// The Last Frame Of The Stream
+	height = psi.rcFrame.bottom - psi.rcFrame.top;					// Height Is Bottom Of Frame Minus Top	
+	lastframe = AVIStreamLength(pavi);								// The Last Frame Of The Stream
 	
 	pgf = AVIStreamGetFrameOpen(pavi, (LPBITMAPINFOHEADER)AVIGETFRAMEF_BESTDISPLAYFMT);						// Create The PGETFRAME	Using Our Request Mode
 	if (pgf == NULL)
