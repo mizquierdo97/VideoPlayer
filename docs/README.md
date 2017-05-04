@@ -1,5 +1,67 @@
 ## Video Player
 
+### What is a Video Player?
+
+A video player, also known as media player, is a program that allows the reproduction, in this case of video format files. Such as AVI, MP4, MPEG and many more.
+Some of the most famous programs are VLC Media Player, DivX or QuickTime.
+
+
+<img src="http://simosystems.eu/images/vlc.gif" width="150"><img src="http://images.apple.com/euro/quicktime/download/images/icon_qt_big.jpg" width="150"><img src="http://www.albinoblacksheep.com/download/icon/wmp.png" width="150">
+
+
+
+### How it works?
+
+The main process consists of three parts:
+
+First, the information contained in the file is read.
+
+Then, this information is passed by the specific codec with which the video has been encoded, in order to read the information that contained the original file. There are two types of codecs, with lost or no loss.
+
+Finally, once we have this information, we store them in memory so they can be read.
+
+
+
+![](https://github.com/mizquierdo97/VideoPlayer/blob/master/docs/Process.jpg)
+
+
+
+Once we have all the video in memory, each frame, it takes the respective information obtained and is painted on the screen.
+
+### Our Video Player
+In our case, we will use the Video For Windows library, 
+which although outdated, allows you to play videos very simply. 
+Like all libraries it has its advantages and disadvantages:
+
+Advantages:
+Very intuitive and easy to start working with.
+Simple and intuitive
+
+Disadvantages:
+Little documentation
+Low flexibility
+Supports few video codecs: MRLE, Cinepak, Intel Indeo, Microsoft Video 1
+
+
+Although the disadvantages would be very noticeable if we needed to do something very complex,
+ they are not so important in small projects.
+
+For our program, we will use SDL2 to play the video on screen using the textures, we will explain later.
+
+### First steps
+
+Before starting to write code, we must take into account that the 
+program will not be able to play all types of video,
+So we must first adapt the format of the video that we will need.
+
+To do this, we must open the program that we use to render video (in this case adobe Premiere) or any with which we are accustomed to work.
+We import the video that we want to reproduce in our program and export it in the following format and with the following codec:
+
+Keep in mind that this codec does not compress the file and that it can take up a lot of memory.
+
+Once we have the video and we can reproduce it in our project :)
+
+### TODOs
 
 ### Markdown
 
