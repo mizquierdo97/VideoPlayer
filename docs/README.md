@@ -63,6 +63,28 @@ Once we have the video and we can reproduce it in our project :)
 
 ### TODOs
 
+
+### TODO 0
+Init library and header:
+You will need Vfw.h, dshow.h and vfw32.lib
+
+### TODO 1
+Init the Video
+
+```markdown
+App->video->Initialize("Video Name.avi")
+```
+### TODO 2
+Every frame you should take one frame of the video. Remember to cap max frames from your program to frames per second of the video.
+
+
+### TODO 3
+Create a surface. This surface will recieve the data of actual frame.
+
+You can use SDL_CreateSurfaceFrom
+
+![](https://github.com/mizquierdo97/VideoPlayer/blob/master/docs/BUFFER.gif)
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
