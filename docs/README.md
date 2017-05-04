@@ -45,6 +45,10 @@ Although the disadvantages would be very noticeable if we needed to do something
 
 For our program, we will use SDL2 to play the video on screen using the textures, we will explain later.
 
+![](http://cdn.makeuseof.com/wp-content/uploads/2015/03/lossless-vs-lossy-compression-dragonfly.png)
+
+Diferences between lossles and lossy 
+
 ### First steps
 
 Before starting to write code, we must take into account that the 
@@ -92,34 +96,4 @@ Clean the surface and texture.
 When you finish, clean the avi files used.
 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mizquierdo97/VideoPlayer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
