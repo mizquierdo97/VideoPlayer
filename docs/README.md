@@ -1,4 +1,4 @@
-﻿## Video Player
+# Video Player
 
 ### What is a Video Player?
 
