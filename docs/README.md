@@ -89,6 +89,11 @@ You can use SDL_CreateSurfaceFrom
 ### TODO 4
 Now you can convert the surface to a texture and Blit it. Remember to go to next frame.
 
+At this point, the video should be reproduced
+
+<img src="https://i.giphy.com/XreQmk7ETCak0.gif" width="400">
+
+
 ### TODO 5
 Clean the surface and texture.
 
