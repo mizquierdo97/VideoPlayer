@@ -102,12 +102,15 @@ When you finish, clean the avi files used.
 
 
 ## More Documentation
+
 ### About video compression and codecs
 Video Compression: https://www.youtube.com/watch?v=qbGQBT2Vwvc
+
 Codecs: https://www.youtube.com/watch?v=GhWki9a7s18
 
 ### Video For Windows
 Microsoft Documentation: https://msdn.microsoft.com/es-es/library/windows/desktop/dd757708(v=vs.85).aspx
+
 Video For Windows tutorial with OpenGl: http://nehe.gamedev.net/tutorial/playing_avi_files_in_opengl/23001/
 
 
