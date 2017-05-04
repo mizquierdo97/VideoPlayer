@@ -88,12 +88,15 @@ bool j1Video::GrabAVIFrame()
 	//-----
 
 	//TODO 4 Use this surface to create a SDL_Texture, and Blit it.
-	SDL_Texture* image = App->tex->LoadSurface(surface);
-
-	
+	//Also, After picking up the frame, you should go to the next one
+	SDL_Texture* image = App->tex->LoadSurface(surface);	
 
 	App->render->Blit(image, 0, 0, NULL, 0, SDL_FLIP_HORIZONTAL, 180);
 
+
+	frame++;
+	if (frame >= lastframe)
+		frame = 0;
 	//----
 
 	//TODO 5 Unload texture and surface
@@ -102,10 +105,8 @@ bool j1Video::GrabAVIFrame()
 	//-----
 
 
-	//TODO 6 After picking up the frame, you should go to the next one
-	frame++;
-	if (frame >= lastframe)
-		frame = 0;
+
+	
 
 	return true;
 }

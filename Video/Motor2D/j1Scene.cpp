@@ -86,7 +86,7 @@ bool j1Scene::PostUpdate()
 // Called before quitting
 bool j1Scene::CleanUp()
 {
-	//TODO 7 Clean the Avi files used
+	//TODO 6 Clean the Avi files used
 	App->video->CloseAVI();
 
 	
