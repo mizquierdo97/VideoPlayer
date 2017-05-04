@@ -1,4 +1,4 @@
-## Video Player
+﻿## Video Player
 
 ### What is a Video Player?
 
@@ -22,7 +22,7 @@ Finally, once we have this information, we store them in memory so they can be r
 
 
 
-<img src="https://github.com/mizquierdo97/VideoPlayer/blob/master/docs/Process.jpg">
+<img src="https://github.com/mizquierdo97/VideoPlayer/blob/master/docs/Process.jpg" width"150">
 
 
 
