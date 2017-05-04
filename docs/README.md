@@ -85,6 +85,17 @@ You can use SDL_CreateSurfaceFrom
 
 ![](https://github.com/mizquierdo97/VideoPlayer/blob/master/docs/BUFFER.gif)
 
+
+### TODO 4
+Now you can convert the surface to a texture and Blit it. Remember to go to next frame.
+
+### TODO 5
+Clean the surface and texture.
+
+### TODO 6
+When you finish, clean the avi files used.
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
