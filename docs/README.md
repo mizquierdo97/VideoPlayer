@@ -22,7 +22,8 @@ Finally, once we have this information, we store them in memory so they can be r
 
 
 
-![](https://github.com/mizquierdo97/VideoPlayer/blob/master/docs/Process.jpg)
+<img src="https://github.com/mizquierdo97/VideoPlayer/blob/master/docs/Process.jpg">
+
 
 
 
@@ -83,7 +84,8 @@ Create a surface. This surface will recieve the data of actual frame.
 
 You can use SDL_CreateSurfaceFrom
 
-![](https://github.com/mizquierdo97/VideoPlayer/blob/master/docs/BUFFER.gif)
+<img src="https://github.com/mizquierdo97/VideoPlayer/blob/master/docs/BUFFER.gif">
+
 
 
 ### TODO 4
