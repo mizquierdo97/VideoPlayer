@@ -2,8 +2,8 @@
 
 ### What is a Video Player?
 
-A video player, also known as media player, is a program that allows the reproduction, in this case of video format files. Such as AVI, MP4, MPEG and many more.
-Some of the most famous programs are VLC Media Player, DivX or QuickTime.
+A video player, also known as media player, is a program that allows the reproduction, in this case of video format files, Such as AVI, MP4, MPEG and many more.
+Some of the most famous programs are VLC Media Player, DivX and QuickTime.
 
 
 <img src="http://simosystems.eu/images/vlc.gif" width="150"><img src="http://images.apple.com/euro/quicktime/download/images/icon_qt_big.jpg" width="150"><img src="http://www.albinoblacksheep.com/download/icon/wmp.png" width="150">
@@ -16,18 +16,18 @@ The main process consists of three parts:
 
 First, the information contained in the file is read.
 
-Then, this information is passed by the specific codec with which the video has been encoded, in order to read the information that contained the original file. There are two types of codecs, with lost or no loss.
+Then, this information is passed by the specific codec with which the video has been encoded, in order to read the information that contained the original file. There are two types of codecs, lossless and lossy.
 
 Finally, once we have this information, we store them in memory so they can be read.
 ![](http://i1152.photobucket.com/albums/p485/mikimik1997/Process_zps2xgitvkv.jpg)
 
 
 
-Once we have all the video in memory, each frame, it takes the respective information obtained and is painted on the screen.
+Once we have all the video in memory, each frame we take the respective information obtained and it's painted on the screen.
 
 ### Our Video Player
 In our case, we will use the Video For Windows library, 
-which although outdated, allows you to play videos very simply. 
+which although outdated, allows to play videos very simply. 
 Like all libraries it has its advantages and disadvantages:
 
 Advantages:
@@ -55,7 +55,7 @@ Before starting to write code, we must take into account that the
 program will not be able to play all types of video,
 So we must first adapt the format of the video that we will need.
 
-To do this, we must open the program that we use to render video (in this case adobe Premiere) or any with which we are accustomed to work.
+To do this, we must open the program that we use to render video (in this case Adobe Premiere) or any with which we are accustomed to work.
 We import the video that we want to reproduce in our program and export it in the following format and with the following codec:
 
 ![](https://i.gyazo.com/d3bbb92adfbeee68da6b1ad6aa73c09e.png) ![](https://i.gyazo.com/2c1390f2c98b8023fbd084ffe28109b9.png)
