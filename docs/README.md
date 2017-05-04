@@ -19,12 +19,7 @@ First, the information contained in the file is read.
 Then, this information is passed by the specific codec with which the video has been encoded, in order to read the information that contained the original file. There are two types of codecs, with lost or no loss.
 
 Finally, once we have this information, we store them in memory so they can be read.
-
-
-
-<img src="https://github.com/mizquierdo97/VideoPlayer/blob/master/docs/Process.jpg"  width="150">
-
-
+![](http://i1152.photobucket.com/albums/p485/mikimik1997/Process_zps2xgitvkv.jpg)
 
 
 
@@ -84,9 +79,7 @@ Every frame you should take one frame of the video. Remember to cap max frames f
 Create a surface. This surface will recieve the data of actual frame.
 
 You can use SDL_CreateSurfaceFrom
-
-<img src="https://github.com/mizquierdo97/VideoPlayer/blob/master/docs/BUFFER.gif" width="150">
-
+![](http://i1152.photobucket.com/albums/p485/mikimik1997/BUFFER_zpssdsmq4ab.gif)
 
 
 ### TODO 4
