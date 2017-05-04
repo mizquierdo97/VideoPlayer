@@ -58,11 +58,14 @@ So we must first adapt the format of the video that we will need.
 To do this, we must open the program that we use to render video (in this case adobe Premiere) or any with which we are accustomed to work.
 We import the video that we want to reproduce in our program and export it in the following format and with the following codec:
 
+![](https://i.gyazo.com/d3bbb92adfbeee68da6b1ad6aa73c09e.png) ![](https://i.gyazo.com/2c1390f2c98b8023fbd084ffe28109b9.png)
+![](https://i.gyazo.com/6dd00c99f9549e308e0a975f5b3b77f5.png)
+
 Keep in mind that this codec does not compress the file and that it can take up a lot of memory.
 
 Once we have the video and we can reproduce it in our project :)
 
-### TODOs
+## TODOs
 
 
 ### TODO 0
