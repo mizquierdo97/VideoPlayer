@@ -49,7 +49,7 @@ bool j1Scene::Start()
 	
 	//TODO 1 Initialize the video - Just call the function
 
-	App->video->Initialize("Test9.avi");
+	App->video->Initialize("VideoTest.avi");
 	
 	//------
 	return true;

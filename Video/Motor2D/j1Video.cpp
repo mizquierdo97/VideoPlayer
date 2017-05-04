@@ -4,6 +4,9 @@
 #include "j1Render.h"
 #include <windows.h>
 #include "p2Log.h"
+#include "SDL_image\include\SDL_image.h"
+
+
 
 j1Video::j1Video() : j1Module()
 {
@@ -29,7 +32,7 @@ bool j1Video::CleanUp()
 void j1Video::Initialize(char* file_path)
 {
 	std::string path = SDL_GetBasePath();
-	path += "..\\Game\\";
+	//path += "..\\Game\\";
 	std::string file_name = file_path;
 
 	std::string temp = path + file_name;
@@ -81,13 +84,15 @@ bool j1Video::GrabAVIFrame()
 	SDL_Surface *surface;
 	
 	surface = SDL_CreateRGBSurfaceFrom(pdata, width, height, BitCount, width * 3,	0, 0, 0, 0);
-
+	
 	//-----
 
 	//TODO 4 Use this surface to create a SDL_Texture, and Blit it.
 	SDL_Texture* image = App->tex->LoadSurface(surface);
 
-	App->render->Blit(image, 0, 0, NULL, 0, 180);
+	
+
+	App->render->Blit(image, 0, 0, NULL, 0, SDL_FLIP_HORIZONTAL, 180);
 
 	//----
 
@@ -111,4 +116,5 @@ void j1Video::CloseAVI() {
 		AVIFileExit();												// Release The File
 	
 }
+
 
